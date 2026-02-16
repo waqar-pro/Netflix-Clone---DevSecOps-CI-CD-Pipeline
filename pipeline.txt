@@ -45,8 +45,8 @@ pipeline {
                 script {
                     withDockerRegistry(credentialsId: 'docker') {
                         sh 'docker build --build-arg TMDB_V3_API_KEY=yourapikey -t netflix .'
-                        sh 'docker tag netflix nasi101/netflix:latest'
-                        sh 'docker push nasi101/netflix:latest'
+                        sh 'docker tag netflix waqarlevel/netflix:latest'
+                        sh 'docker push waqarlevel1/netflix:latest'
                     }
                 }
             }
@@ -54,13 +54,13 @@ pipeline {
 
         stage('TRIVY Image Scan') {
             steps {
-                sh 'trivy image nasi101/netflix:latest > trivyimage.txt'
+                sh 'trivy image waqarlevel1/netflix:latest > trivyimage.txt'
             }
         }
 
         stage('Deploy to Container') {
             steps {
-                sh 'docker run -d -p 8081:80 nasi101/netflix:latest'
+                sh 'docker run -d -p 8081:80 waqarlevel1/netflix:latest'
             }
         }
 
