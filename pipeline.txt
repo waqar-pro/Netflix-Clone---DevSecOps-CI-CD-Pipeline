@@ -44,7 +44,7 @@ pipeline {
             steps {
                 script {
                 withDockerRegistry([credentialsId: 'docker', url: 'https://registry.hub.docker.com']) {
-                        sh 'docker build --build-arg TMDB_V3_API_KEY=yourapikey -t netflix .'
+                        sh 'docker build --build-arg 481722db7777b98744a4de59403c2fc5 -t netflix .'
                         sh 'docker tag netflix waqarlevel/netflix:latest'
                         sh 'docker push waqarlevel1/netflix:latest'
                     }
