@@ -362,7 +362,7 @@ sudo systemctl restart jenkins
 
 ```
 
-**Phase 4: Monitoring**
+# Phase 4: Monitoring
 
 1. **Install Prometheus and Grafana:**
 
@@ -561,7 +561,7 @@ sudo systemctl restart jenkins
    `http://<your-prometheus-ip>:9090/targets`
 
 
-####Grafana
+# Phase 5: Grafana
 
 **Install Grafana on Ubuntu 22.04 and Set it up to Work with Prometheus**
 
