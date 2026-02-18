@@ -972,60 +972,7 @@ sonar-scanner \
 
 ---
 
-## 📸 Screenshots
 
-### 1. Jenkins Pipeline View
-
-**Blue Ocean UI:**
-![Jenkins Pipeline](screenshots/jenkins-pipeline.png)
-
-**Classic View:**
-![Jenkins Classic](screenshots/jenkins-classic.png)
-
-### 2. Build Execution
-
-**Running Pipeline:**
-![Build Running](screenshots/build-running.png)
-
-**Stage View:**
-![Stage View](screenshots/stage-view.png)
-
-### 3. Security Scans
-
-**Trivy File System Scan:**
-![Trivy FS](screenshots/trivy-fs.png)
-
-**Trivy Image Scan:**
-![Trivy Image](screenshots/trivy-image.png)
-
-**SonarQube Analysis:**
-![SonarQube](screenshots/sonarqube.png)
-
-### 4. Monitoring Dashboards
-
-**Prometheus Targets:**
-![Prometheus Targets](screenshots/prometheus-targets.png)
-
-**Grafana Dashboard:**
-![Grafana Dashboard](screenshots/grafana-dashboard.png)
-
-**System Metrics During Build:**
-![Metrics During Build](screenshots/metrics-build.png)
-
-### 5. Deployed Application
-
-**Netflix Clone Homepage:**
-![Netflix App](screenshots/netflix-app.png)
-
-### 6. Email Notifications
-
-**Success Email:**
-![Success Email](screenshots/email-success.png)
-
-**Failure Email:**
-![Failure Email](screenshots/email-failure.png)
-
----
 
 ## 💡 Key Learnings
 
