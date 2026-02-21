@@ -22,13 +22,28 @@
 - [Configuration](#️-configuration)
 - [Monitoring](#-monitoring)
 - [Security](#-security)
-- [Screenshots](#-screenshots)
 - [Key Learnings](#-key-learnings)
 - [Future Improvements](#-future-improvements)
 - [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
 
+<img src="2.1.png" alt="image" width="800"/>
+
+<img src="2.2.png" alt="image" width="800"/>
+
+<img src="2.3.png" alt="image" width="800"/>
+
+<img src="2.4.png" alt="image" width="800"/>
+
+<img src="2.5.png" alt="image" width="800"/>
+
+<img src="2.6.png" alt="image" width="800"/>
+
+<img src="2.7.png" alt="image" width="800"/>
+
+
 ---
+
 
 ## 🎯 Overview
 
